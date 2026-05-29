@@ -1,0 +1,37 @@
+-----------------------------------
+Instructions for building TetrisOS:
+-----------------------------------
+Requirements:
+
+Preferably a Linux Machine (WSL untested)
+gcc
+xorriso
+syslinux (or a variant that is basically the same thing)
+
+Building:
+
+1. cd into the project folder
+2. Add apps to initramfs_root/bin (need to be statically linked) (optional)
+3. Add a command to launch that app in init.c (optional)
+4. Run build.sh
+5. The iso should be ready for use
+
+Booting:
+
+USB:
+  Flash it using the dd command or use Ventoy
+
+VM settings:
+  Minimum 64MiB of RAM
+  No disk
+  x86_64 Architecture CPU
+  For QEMU with VirtManager:
+    Other Generic Linux 2024 (linux2024)
+  For VMWare:
+    Other Linux 6.x kernel 64bit
+  For VirtualBox:
+    Other Linux 64bit
+
+Notes:
+  If you dont like the bare metal feeling, choose the non-bare version
+  All TetrisOS distributions will remain functional in apocalyptic, low RAM environments of as few as 64MiB.
