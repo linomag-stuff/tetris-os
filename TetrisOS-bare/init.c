@@ -12,7 +12,6 @@ int main() {
             continue;
         }
         
-        // Strip trailing newline
         input[strcspn(input, "\n")] = 0;
 
         if (strcmp(input, "shutdown") == 0) {
