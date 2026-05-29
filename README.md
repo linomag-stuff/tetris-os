@@ -17,7 +17,7 @@ QEMU with Virt-manager (tested)
 VMware (not tested)  
 VirtualBox (not tested)  
 ## How to build from source  
-Download the project folder and run build.sh  
+The instructions are in INSTRUCTIONS file  
 ## Requirements  
 Architecture: x86_64  
 RAM: 64MiB minimum  
