@@ -13,9 +13,9 @@ TetrisOS: has a simple ">" shell and help commands
 TetrisOS-bare: Gets rid of the ">" shell and help commands  
 ## How To Boot  
 USB using boot menu (not tested)  
-QEMU with Virt-manager (tested)  
-VMware (not tested)  
-VirtualBox (not tested)  
+QEMU with Virt-manager  
+VMware  
+VirtualBox  
 ## How to build from source  
 The instructions are in INSTRUCTIONS file  
 ## Requirements  
